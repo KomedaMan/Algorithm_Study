@@ -25,6 +25,7 @@ graph = {
     3: []
 }
 
+
 def dfs(v, visited):
     # v:探索開始場所　visited:頂点を訪れたかあらわすリスト 要素はtype:boolean
     visited[v] = True
@@ -38,4 +39,5 @@ visited = [False] * 4
 
 dfs(0, visited)
 
+# 出力
 print(visited)
