@@ -1,3 +1,4 @@
+# BFS 幅優先探索
 from collections import deque
 
 # グラフを作る　例えば0は1, 2に進むことができる
