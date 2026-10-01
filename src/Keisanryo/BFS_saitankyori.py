@@ -35,4 +35,5 @@ def bfs(start):  # start:どの頂点から探索を始めるか
                 q.append(nv)
     return dist
 
+# 出力
 print(bfs(0))
