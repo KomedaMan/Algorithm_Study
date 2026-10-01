@@ -24,9 +24,13 @@ def bfs(start):  # start:どの頂点から探索を始めるか
     while q:
         v = q.popleft()     # 先頭要素を一つとりだす
         # 現在調べている頂点vから直接行ける頂点を1つずつ調べる
+        # nv:次に行ける頂点を表すnext vertex
         for nv in graph[v]:
+            # まだ訪れていない頂点か？
             if dist[nv] == -1:
+                # 前の頂点の値に+1した値を次の頂点の要素にする
                 dist[nv] = dist[v] + 1
+                # 次に調べる頂点としてキューに格納する
                 q.append(nv)
     return dist
 
