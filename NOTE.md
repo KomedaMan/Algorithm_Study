@@ -14,3 +14,12 @@
 
 # 標準化について
 
+IETF（Internet Engineering Task Force）はTCP/IPなどのようにインターネット上で開発される技術や
+仕様などを標準化する組織のこと。
+標準化が行われた規格はRFCとしてインターネット上に公開され誰もが閲覧できるようになっている
+
+RADIUS（Remote Authentication Dial In User Service）は、認証情報と認証手続き、利用ログの記録
+（アカウンティング）をネットワーク上のサーバーに一元化することを目的としたシステムのこと
+LDAP（Lightweight Directory Access Protocol）はディレクトリサービスを提供するためのプロトコルのこと
+
+JIS Q 27002(ISO/IEC 27002)は、組織の情報マネジメントシステムの仕様を定めた規格のこと
