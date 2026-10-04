@@ -20,6 +20,12 @@ IETF（Internet Engineering Task Force）はTCP/IPなどのようにインター
 
 RADIUS（Remote Authentication Dial In User Service）は、認証情報と認証手続き、利用ログの記録
 （アカウンティング）をネットワーク上のサーバーに一元化することを目的としたシステムのこと
+
 LDAP（Lightweight Directory Access Protocol）はディレクトリサービスを提供するためのプロトコルのこと
 
 JIS Q 27002(ISO/IEC 27002)は、組織の情報マネジメントシステムの仕様を定めた規格のこと
+
+JIS X 5070(ISO/IEC 15408)は、情報技術の製品およびシステムのセキュリティ特性を評価するための
+JIS規格のこと
+
+JIS X 5731-8(ITU-T X.509)は、公開鍵認証の標準形式や証明書パス検証アルゴリズムなどを定めたもの
